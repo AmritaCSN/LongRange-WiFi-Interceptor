@@ -1,0 +1,76 @@
+[21:42:27.652] HTTP(S) proxy listening at 192.168.42.1:8080.
+[21:42:27.656] Web server listening at http://192.168.42.1:9090/
+[21:42:28.799][192.168.42.151:43111] client connect
+[21:42:28.839][192.168.42.151:43111] server connect connectivitycheck.gstatic.com:80 (142.250.76.35:80)
+[21:42:38.802][192.168.42.151:43112] client connect
+[21:42:38.835][192.168.42.151:43112] server connect clientservices.googleapis.com:443 (142.250.193.131:443)
+[21:42:39.069][192.168.42.151:43113] client connect
+[21:42:39.229][192.168.42.151:43113] server connect update.googleapis.com:443 (142.250.77.131:443)
+[21:43:12.556][192.168.42.151:43114] client connect
+[21:43:12.685][192.168.42.151:43114] server connect www.instagram.com:443 (157.240.23.174:443)
+[21:43:13.140][192.168.42.151:43115] client connect
+[21:43:13.162][192.168.42.151:43115] server connect safebrowsing.googleapis.com:443 (142.250.182.42:443)
+[21:43:13.432][192.168.42.151:43115] Client TLS handshake failed. The client does not trust the proxy's certificate for safebrowsing.googleapis.com (OpenSSL Error([('SSL routines', '', 'sslv3 alert certificate unknown')]))
+[21:43:13.441][192.168.42.151:43115] client disconnect
+[21:43:13.452][192.168.42.151:43115] server disconnect safebrowsing.googleapis.com:443 (142.250.182.42:443)
+[21:43:16.390][192.168.42.151:43116] client connect
+[21:43:16.563][192.168.42.151:43116] server connect connect.facebook.net:443 (157.240.23.25:443)
+[21:43:17.165][192.168.42.151:43117] client connect
+[21:43:17.232][192.168.42.151:43117] server connect connect.facebook.net:443 (157.240.23.25:443)
+[21:45:13.404][192.168.42.151:43118] client connect
+[21:45:13.531][192.168.42.151:43118] server connect static.cdninstagram.com:443 (157.240.23.63:443)
+[21:45:13.646][192.168.42.151:43119] client connect
+[21:45:13.650][192.168.42.151:43120] client connect
+[21:45:13.654][192.168.42.151:43121] client connect
+[21:45:13.673][192.168.42.151:43122] client connect
+[21:45:13.765][192.168.42.151:43119] server connect static.cdninstagram.com:443 (157.240.23.63:443)
+[21:45:13.780][192.168.42.151:43120] server connect static.cdninstagram.com:443 (157.240.23.63:443)
+[21:45:13.848][192.168.42.151:43121] server connect static.cdninstagram.com:443 (157.240.23.63:443)
+[21:45:13.857][192.168.42.151:43123] client connect
+[21:45:13.977][192.168.42.151:43122] server connect static.cdninstagram.com:443 (157.240.23.63:443)
+[21:45:14.045][192.168.42.151:43123] server connect static.cdninstagram.com:443 (157.240.23.63:443)
+[21:45:14.296][192.168.42.151:43119] Client TLS handshake failed. The client disconnected during the handshake. If this happens consistently for static.cdninstagram.com, this may indicate that the client does not trust the proxy's certificate.
+[21:45:14.298][192.168.42.151:43120] Client TLS handshake failed. The client disconnected during the handshake. If this happens consistently for static.cdninstagram.com, this may indicate that the client does not trust the proxy's certificate.
+[21:45:14.301][192.168.42.151:43121] Client TLS handshake failed. The client disconnected during the handshake. If this happens consistently for static.cdninstagram.com, this may indicate that the client does not trust the proxy's certificate.
+[21:45:14.302][192.168.42.151:43122] Client TLS handshake failed. The client disconnected during the handshake. If this happens consistently for static.cdninstagram.com, this may indicate that the client does not trust the proxy's certificate.
+[21:45:14.304][192.168.42.151:43123] Client TLS handshake failed. The client disconnected during the handshake. If this happens consistently for static.cdninstagram.com, this may indicate that the client does not trust the proxy's certificate.
+[21:45:14.608][192.168.42.151:43119] client disconnect
+[21:45:14.618][192.168.42.151:43120] client disconnect
+[21:45:14.623][192.168.42.151:43121] client disconnect
+[21:45:14.627][192.168.42.151:43122] client disconnect
+[21:45:14.631][192.168.42.151:43123] client disconnect
+[21:45:14.875][192.168.42.151:43119] server disconnect static.cdninstagram.com:443 (157.240.23.63:443)
+[21:45:14.879][192.168.42.151:43120] server disconnect static.cdninstagram.com:443 (157.240.23.63:443)
+[21:45:14.883][192.168.42.151:43121] server disconnect static.cdninstagram.com:443 (157.240.23.63:443)
+[21:45:14.887][192.168.42.151:43122] server disconnect static.cdninstagram.com:443 (157.240.23.63:443)
+[21:45:14.892][192.168.42.151:43123] server disconnect static.cdninstagram.com:443 (157.240.23.63:443)
+[21:46:28.933][192.168.42.151:43111] server disconnect connectivitycheck.gstatic.com:80 (142.250.76.35:80)
+[21:46:39.384][192.168.42.151:43124] client connect
+[21:46:39.682][192.168.42.151:43124] server connect techenclave.com:443 (13.235.72.147:443)
+[21:46:39.829][192.168.42.151:43112] 142.250.193.131:443: HTTP/2 protocol error: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+[21:46:39.836][192.168.42.151:43112] server disconnect clientservices.googleapis.com:443 (142.250.193.131:443)
+[21:46:39.968][192.168.42.151:43113] server disconnect update.googleapis.com:443 (142.250.77.131:443)
+[21:46:41.102][192.168.42.151:43125] client connect
+[21:46:41.121][192.168.42.151:43126] client connect
+[21:46:41.174][192.168.42.151:43125] server connect pagead2.googlesyndication.com:443 (142.250.193.162:443)
+[21:46:41.183][192.168.42.151:43126] server connect www.googletagmanager.com:443 (142.250.193.136:443)
+[21:46:41.362][192.168.42.151:43125] Server TLS handshake failed. Certificate verify failed: self-signed certificate in certificate chain
+[21:46:41.372][192.168.42.151:43125] Unable to establish TLS connection with server (Certificate verify failed: self-signed certificate in certificate chain). Trying to establish TLS with client anyway. If you plan to redirect requests away from this server, consider setting `connection_strategy` to `lazy` to suppress early connections.
+[21:46:41.510][192.168.42.151:43125] server disconnect pagead2.googlesyndication.com:443 (142.250.193.162:443)
+[21:46:42.297][192.168.42.151:43127] client connect
+[21:46:42.373][192.168.42.151:43127] server connect www.google-analytics.com:443 (142.250.195.206:443)
+[21:46:48.769][192.168.42.151:43124] server disconnect techenclave.com:443 (13.235.72.147:443)
+[21:46:48.936][192.168.42.151:43124] server connect techenclave.com:443 (13.235.72.147:443)
+[21:46:54.098][192.168.42.151:43124] server disconnect techenclave.com:443 (13.235.72.147:443)
+[21:47:28.948][192.168.42.151:43111] client disconnect
+[21:47:30.013][192.168.42.151:43124] server connect techenclave.com:443 (13.235.72.147:443)
+[21:47:37.905][192.168.42.151:43124] server disconnect techenclave.com:443 (13.235.72.147:443)
+[21:47:40.056][192.168.42.151:43113] client disconnect
+[21:48:48.238][192.168.42.151:43128] client connect
+[21:48:48.265][192.168.42.151:43129] client connect
+[21:48:48.466][192.168.42.151:43129] server connect chromeupboarding-pa.googleapis.com:443 (142.250.76.74:443)
+[21:48:48.478][192.168.42.151:43128] server connect chromeupboarding-pa.googleapis.com:443 (142.250.76.74:443)
+[21:48:50.948][192.168.42.151:43130] client connect
+[21:48:51.133][192.168.42.151:43130] server connect t0.gstatic.com:80 (142.250.193.100:80)
+[21:50:42.493][192.168.42.151:43126] 142.250.193.136:443: HTTP/2 protocol error: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+[21:50:42.513][192.168.42.151:43126] server disconnect www.googletagmanager.com:443 (142.250.193.136:443)
