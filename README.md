@@ -1,5 +1,5 @@
 # Long Range Stealth Mode Wi-Fi Surveillance and Interception System
-  This repository contains the data generated and experiment results needed to built a long rang wifi intercepted system
+  This repository contains the data generated and experiment results needed to built a long rang wifi intercepted system.
 
 ## Table of Contents
 - [Flow Diagram](#Flow-Diagram)
@@ -8,10 +8,10 @@
 - [source](#source)
 
 ### Flow_Diagram
-   This block diagram describes the work flow of the interception system
+   This block diagram describes the work flow of the interception system.
 
 ### data
-   This section contains the logs and savefiles of the experiments conducted in tools like antenna magus, mitmproxy, opendns, vistumbler
+   This section contains the logs and savefiles of the experiments conducted in tools like antenna magus, mitmproxy, opendns, vistumbler.
     
 ### experiments
    This section contains the results of the experiments of the above mentioned tools.
