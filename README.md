@@ -13,6 +13,11 @@
 
 This block diagram describes the work flow of the interception system.
 
+### Architecture Diagram 
+![Architecture Diagram](https://github.com/AmritaCSN/LongRange-WiFi-Interceptor/blob/main/Architecture%20Diagram.jpg?raw=true)
+
+This diagram describes the architecture of proposed methodology.
+
 ### [data](https://github.com/AmritaCSN/LongRange-WiFi-Interceptor/tree/main/data)
    This section contains the logs and savefiles of the experiments conducted in tools like antenna magus, mitmproxy, opendns, vistumbler.
     
@@ -21,7 +26,7 @@ This block diagram describes the work flow of the interception system.
     
 ### [source](https://github.com/AmritaCSN/LongRange-WiFi-Interceptor/tree/main/src)
    This section has the shell scripts needed for the wifi interception & surveillance.
-   
+
 ### Requirements:
 
 1. Raspberry Pi 3B+ or above 
