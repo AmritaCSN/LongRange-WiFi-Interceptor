@@ -30,11 +30,11 @@ This diagram describes the architecture of proposed methodology.
 ### Requirements:
 
 1. Raspberry Pi 3B+ or above 
-2. Raspbian Firmware 
+2. Raspbian Firmware 64 bit
 3. Raspberry pi imager (firmware can be cached and flashed)
 4. mircoSD card of size 16GB & class 10 or above
 5. AP mode supported USB WiFi Adaptor
-6. Mitmproxy
+6. Mitmproxy (requires Python 3.7 or above)
 
 ```bash
 pip install mitmproxy 
